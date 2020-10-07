@@ -3,7 +3,7 @@
     "value": "eastus"
   },
   "vmssName": {
-    "value": "EAP72-RHEL77-PAYG-VMSS1"
+    "value": "EAP72-RHEL8-PAYG-VMSS2"
   },
   "adminUsername": {
     "value": "demouser"
@@ -28,29 +28,29 @@
   },
   "addressPrefixes": {
     "value": [
-      "10.11.0.0/16"
+      "10.4.0.0/16"
     ]
   },
   "subnetName": {
     "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.11.0.0/24"
+    "value": "10.4.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP72-RHEL77-payg-VMSS-Soln-Test-Rg1"
+    "value": "EAP72-RHEL8-payg-VMSS-Soln-Test-Rg2"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "EAP72-RHEL77-PAYG-VMSS1-ip"
+    "value": "EAP72-RHEL8-PAYG-VMSS2-ip"
   },
   "publicIpDns": {
-    "value": "eap72-rhel77-payg-vmss1-cc1639f9a6"
+    "value": "eap72-rhel8-payg-vmss2-0c5aceb52c"
   },
   "publicIpResourceGroupName": {
-    "value": "EAP72-RHEL77-payg-VMSS-Soln-Test-Rg1"
+    "value": "EAP72-RHEL8-payg-VMSS-Soln-Test-Rg2"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
@@ -62,7 +62,7 @@
     "value": "new"
   },
   "storageAccountName": {
-    "value": "eap72rhe92c827e002"
+    "value": "eap72rhed94b3af5d6"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
@@ -74,13 +74,13 @@
     "value": "demouser1"
   },
   "jbossEAPPassword": {
-    "value": "demoPassword1!"
+    "value": "demoPassword1&"
   },
   "rhsmUserName": {
     "value": "microsoftuser"
   },
   "rhsmPassword": {
-    "value": "Password@123"
+    "value": "Password&123"
   },
   "rhsmPoolEAP": {
     "value": "8a85f99c746e3964017478c9da14688c"
