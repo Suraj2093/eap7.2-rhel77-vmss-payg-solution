@@ -1,9 +1,9 @@
 {
   "location": {
-    "value": "eastus2"
+    "value": "westus"
   },
   "vmssName": {
-    "value": "EAP72-RHEL77-PAYG-VMSS4"
+    "value": "EAP72-RHEL77-PAYG-VMSS3"
   },
   "adminUsername": {
     "value": "demouser"
@@ -18,42 +18,42 @@
     "value": "Standard_F4s_v2"
   },
   "instanceCount": {
-    "value": "2"
+    "value": "3"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
   },
   "virtualNetworkName": {
-    "value": "VirtualNetwork"
+    "value": "EAP72-RHEL77-PAYG-VMSS3-vnet3"
   },
   "addressPrefixes": {
     "value": [
-      "10.0.0.0/16"
+      "10.4.0.0/16"
     ]
   },
   "subnetName": {
-    "value": "Subnet-1"
+    "value": "EAP72-RHEL77-PAYG-VMSS3-Subnet1"
   },
   "subnetPrefix": {
-    "value": "10.0.0.0/24"
+    "value": "10.4.3.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP-on-RHEL-Plan-EXT-resources-Rg2"
+    "value": "EAP72-RHEL77-payg-VMSS-Soln-Test-Rg3"
   },
-  "publicIpNewOrExisting": {
-    "value": "new"
+  "publicIpNewOrExistingOrNone": {
+    "value": "existing"
   },
   "publicIpName": {
-    "value": "EAP72-RHEL77-PAYG-VMSS4-basic-pip"
+    "value": "EAP-RHEL-VMSS-Basic-pip1"
   },
   "publicIpDns": {
-    "value": "eap72-rhel77-payg-vmss4-basicpipens"
+    "value": "eap-rhel-vmss-basic-pip1"
   },
   "publicIpResourceGroupName": {
-    "value": "EAP-on-RHEL-Plan-EXT-resources-Rg2"
+    "value": "EXt-Resource-Rg1"
   },
   "publicIPAllocationMethod": {
-    "value": "Static"
+    "value": "Dynamic"
   },
   "publicIpSku": {
     "value": "Basic"
@@ -62,16 +62,19 @@
     "value": "On"
   },
   "storageNewOrExisting": {
-    "value": "existing"
+    "value": "new"
   },
   "storageAccountName": {
-    "value": "testvmrg1diag122"
+    "value": "diageap72rhel77strggrsv2"
   },
   "storageAccountType": {
-    "value": "Standard_LRS"
+    "value": "Standard_GRS"
+  },
+  "storageAccountKind": {
+    "value": "StorageV2"
   },
   "storageReplication": {
-    "value": "Standard_ZRS"
+    "value": "Standard_GRS"
   },
   "jbossEAPUserName": {
     "value": "demouser1"
@@ -80,12 +83,12 @@
     "value": "demoPassword1&"
   },
   "rhsmUserName": {
-    "value": "Suraj@ss.com"
+    "value": "microsoftuser"
   },
   "rhsmPassword": {
-    "value": "Spektra@123&"
+    "value": "Password&123"
   },
   "rhsmPoolEAP": {
-    "value": "8a85f99974d1005001751c968ffc1dc7"
+    "value": "8a85f99c746e3964017478c9da14688c"
   }
 }
